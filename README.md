@@ -1,4 +1,6 @@
-# Web-Development-Training-3
+# Web-Development-Training-3 
+
+7/7/2022
 
 Website still in progress. 
 
@@ -16,3 +18,8 @@ Learn:
   Column
   row
   
+8/7/2022
+
+learn:
+
+Apply Carousel using bootstrap 5
