@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>tinCat</title>
+  <title>tindog</title>
 
 
   <!-- Google Fonts -->
@@ -30,7 +30,7 @@
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="">tincat</a>
+      <a class="navbar-brand" href="">tindog</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,13 +38,13 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="">Contact</a>
+                  <a class="nav-link" href="#footer">Contact</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="">Pricing</a>
+                  <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="">Download</a>
+                  <a class="nav-link" href="#cta">Download</a>
               </li>
           </ul>
     </div>
@@ -61,7 +61,7 @@
         <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
       </div>
 
-      <div class="col-lg-6">
+      <div class="col-lg-6 title-img-div">
         <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
       </div>
 
@@ -149,45 +149,64 @@
   <!-- Pricing -->
 
   <section id="pricing">
-
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-  </section>
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button" style="width: 100%;">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button" style="width: 100%;">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button" style="width: 100%;">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+  </section>  
 
 
   <!-- Call to Action -->
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"> <i class="fa-brands fa-apple"> </i> Download</button>
+    <button type="button" class="btn btn-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
 
   </section>
 
@@ -196,7 +215,14 @@
 
   <footer id="footer">
 
-    <p>© Copyright TinDog</p>
+    <i class="logo fa-brands fa-twitter"></i>
+    <i class="logo fa-brands fa-facebook-f"></i>
+    <i class="logo fa-brands fa-instagram"></i>
+    <i class="logo fa-solid fa-envelope"></i>
+    <p class="copyright">© Copyright 2022 TinDog</p>
+   
+
+  </div>
 
   </footer>
 
