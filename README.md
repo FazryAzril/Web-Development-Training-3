@@ -2,8 +2,6 @@
 
 7/7/2022
 
-Website still in progress. 
-
 Apply web development using HTML,CSS and Bootstrap.
 
 Learning how to use bootstrap for styling website.
@@ -23,3 +21,12 @@ Learn:
 learn:
 
 Apply Carousel using bootstrap 5
+
+9/7/2022
+
+learn:
+
+How to use card-group for pricing by using bootstrap 5 <br>
+learn how to use media query
+Z-index
+
