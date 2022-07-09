@@ -1,6 +1,6 @@
 # Web-Development-Training-3 
 
-7/7/2022
+<strong>7/7/2022</strong>
 
 Apply web development using HTML,CSS and Bootstrap.
 
@@ -8,25 +8,25 @@ Learning how to use bootstrap for styling website.
 Installing google font, bootstrap, fontawesome for icon
 
 Learn:
-
-  Grid
-  Container
-  container-fluid
-  Nav
-  Column
-  row
   
-8/7/2022
+  <li>Grid
+  <li>Container
+  <li>container-fluid
+  <li>Nav
+  <li>Column
+  <li>row
+    
+<strong>8/7/2022</strong>
 
 learn:
 
-Apply Carousel using bootstrap 5
+<li>Apply Carousel using bootstrap 5
 
-9/7/2022
+<strong>9/7/2022</strong>
 
 learn:
 
-How to use card-group for pricing by using bootstrap 5 <br>
-learn how to use media query
-Z-index
+<li>How to use card-group for pricing by using bootstrap 5 <br>
+<li>learn how to use media query
+<li>Z-index
 
